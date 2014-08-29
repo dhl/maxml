@@ -4,8 +4,18 @@ Download, parse and save an XML document to MongoDB
 
 ## Install
 
-    gem install rspec
+Make sure you're using {Bundler}[http://bundler.io].
 
+Add `gem "maxml"` to your `Gemfile`.
+
+As your project may depend on a particular version of the `mongo` and/or
+`bson_ext` gem, you need to add those to your Gemfile as well.
+
+```ruby
+gem 'maxml'
+gem 'mongo'
+gem 'bson_ext' 
+```
 
 ## Usage Example
 
