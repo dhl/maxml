@@ -23,8 +23,19 @@ gem 'bson_ext'
 # DB defaults to "localhost" for `host` and 27017 for `port`
 db_config = {database: "maxml_test", collection: "xmls"}
 reddit = MaxML::XML.new("http://www.reddit.com/.rss", db_config)
+
+# Parse the XML into a JSON string
+reddit.to_json
+
+# Parse the XML into a Ruby hash
+reddit.to_hash
+
+# Return the serialized XML string
+reddit.to_s
+
+# Save to DB
 reddit.save
-)
+
 ```
 ## Copyright and License
 
