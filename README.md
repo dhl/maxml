@@ -4,7 +4,7 @@ Download, parse and save an XML document to MongoDB
 
 ## Install
 
-Make sure you're using {Bundler}[http://bundler.io].
+Make sure you're using [Bundler](http://bundler.io).
 
 Add `gem "maxml"` to your `Gemfile`.
 
