@@ -7,5 +7,4 @@ group :test, :development do
   gem 'rspec'
   gem 'webmock'
   gem 'mongo'
-  gem 'bson_ext'
 end
